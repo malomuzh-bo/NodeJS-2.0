@@ -1,0 +1,13 @@
+
+<ul>
+    <li *ngFor="let item of cars">
+         <button (click)="onSelect(item)">{{item.name}} description</button>
+    </li>
+</ul>
+
+<div>
+    <h1>{{selectedCar.name}}:</h1>
+    <br>
+    <p>{{selectedCar.description}}</p>
+    <img src="{{selectedCar.pic_path}}" alt="pic" width="55%">
+</div>
