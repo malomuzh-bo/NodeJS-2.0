@@ -1,0 +1,4 @@
+ng new ******
+ng g new component *****
+ng serve --open
+injectable

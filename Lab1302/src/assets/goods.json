@@ -1,0 +1,25 @@
+{
+    "Berries":
+    [
+        {
+            "id": 1,
+            "title": "Strawberry",
+            "price": 154.0
+        },
+        {
+            "id": 2,
+            "title": "Blueberry",
+            "price": 116.3
+        },
+        {
+            "id": 3,
+            "title": "Cherry",
+            "price": 75.0
+        },
+        {
+            "id": 4,
+            "title": "Blackberry",
+            "price": 107.0
+        }
+    ]
+}
