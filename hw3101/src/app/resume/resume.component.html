@@ -1,0 +1,12 @@
+<div *ngFor="let i of resumees">
+    <h2>{{i.name|uppercase}}</h2>
+    <br/>
+    <p>Number: {{i.number}}</p>
+    <p>Email: {{i.email | lowercase}}</p>
+    <p>City: {{i.city | uppercase}}</p>
+    <p>Experience: {{i.experience | slice : 2 : 5}}</p>
+    <p>Skills: {{i.skills | lowercase}}</p>
+    <img style="width: 200px;" src={{i.picPath}} alt="" />
+    <hr>
+</div>
+
