@@ -1,0 +1,8 @@
+{
+    "list":[
+        {"name": "Product1", "price": "11"},
+        {"name": "Product2", "price": "22"},
+        {"name": "Product3", "price": "33"},
+        {"name": "Product4", "price": "44"}
+    ]
+}
