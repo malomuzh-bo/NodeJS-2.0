@@ -1,0 +1,48 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<style>
+  .custom_btn{
+    width: 70px;
+    height: 25px;
+  }
+</style>
+
+<div>
+  <ul>Picture list:
+    <li *ngFor="let item of items">
+      <img src="{{item.url}}" alt="{{item.name}}" width="5%">
+      <button (click)="onSelect(item)" class="custom_btn">{{item.name}}</button>
+    </li>
+  </ul>
+
+  <hr>
+
+  <div>
+    <img src="{{selPic.url}}" width="20%" alt="">
+    <br>
+    <p>
+      <span>{{selPic.name}}</span><br>
+      <span>{{selPic.info}}</span><br>
+      <span>{{selPic.year}}</span><br>
+      <span>{{selPic.author}}</span><br>
+    </p>
+
+  </div>
+</div>
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>

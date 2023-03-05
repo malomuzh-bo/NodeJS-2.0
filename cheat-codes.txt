@@ -1,4 +1,4 @@
 ng new ******
-ng g new component *****
+ng g c *****
 ng serve --open
 injectable
